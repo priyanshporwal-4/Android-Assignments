@@ -13,11 +13,8 @@
         android:theme="@style/Base.Theme.AndroidAssignments"
         tools:targetApi="31">
         <activity
-            android:name=".ShowGenderActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ConcateTwoEdittextContent"
-            android:exported="true">
+            android:name=".ColorChangeMenuActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,8 +22,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".OneEdittextToAnother"
+            android:name=".IntentActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".IntentActivity1"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".LanguagesUsingCheckBoxes"
             android:exported="true"></activity>
+        <activity
+            android:name=".ShowGenderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ConcateTwoEdittextContent"
+            android:exported="true" />
+        <activity
+            android:name=".OneEdittextToAnother"
+            android:exported="true" />
         <activity
             android:name=".LengthOfInputActivity"
             android:exported="true" />
