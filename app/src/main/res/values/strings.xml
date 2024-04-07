@@ -3,4 +3,8 @@
     <string name="welcome_app">Welcome App</string>
     <string name="user_id">User ID</string>
     <string name="password">Password</string>
+    <string-array name="list">
+        <item>Activity 1</item>
+        <item>Activity 2</item>
+    </string-array>
 </resources>

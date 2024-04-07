@@ -1,5 +1,6 @@
 package com.example.androidassignments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -34,8 +35,13 @@ public class ShowGenderActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int selectedRadioId = radioGroup.getCheckedRadioButtonId();
                 RadioButton radioButton = findViewById(selectedRadioId);
-
-                Toast.makeText(ShowGenderActivity.this, "" + radioButton.getText(), Toast.LENGTH_SHORT).show();
+//                if (selectedRadioId == R.id.radioButton)
+//                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+//                else if (selectedRadioId == R.id.radioButton2) {
+//                    startActivity(new Intent(getApplicationContext(), IntentActivity2.class));
+//                } else {
+                    Toast.makeText(ShowGenderActivity.this, "" + radioButton.getText(), Toast.LENGTH_SHORT).show();
+//                }
             }
         });
     }
